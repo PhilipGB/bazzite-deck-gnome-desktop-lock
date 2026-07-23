@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Install a secure VT lock-and-suspend shortcut for GNOME sessions where the
 # desktop's native lock screen is unavailable.
 #
