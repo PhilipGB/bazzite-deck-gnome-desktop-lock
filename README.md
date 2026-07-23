@@ -22,17 +22,9 @@ Tested on:
 
 - Bazzite Deck GNOME
 - Fedora 43 userspace
-- OneXPlayer 3-in-1
+- OneXPlayer X1 Pro 3-in-1
 - Wayland GNOME session
 - `s2idle` suspend
-
-The latest live test confirmed:
-
-- no administrative password dialog before locking;
-- a real suspend interval occurred;
-- the console lock remained active across resume;
-- authentication returned to the existing GNOME session;
-- the service exited cleanly.
 
 This is intentionally Fedora/Bazzite-specific. The installer requires `vlock`, `openvt`, and `chvt` to come from Fedora's `kbd` package and rejects other implementations.
 
