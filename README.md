@@ -325,3 +325,8 @@ This project is suitable for a specific class of systems:
 - suspend is provided by systemd-logind.
 
 It is not a general cross-distribution screen locker.
+
+## License
+
+This project is licensed under the GNU General Public License,
+version 3 or later. See [LICENSE](LICENSE).
